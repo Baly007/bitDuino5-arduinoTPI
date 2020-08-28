@@ -1,0 +1,83 @@
+{
+   "packages":[
+      {
+         "name":"bitDuino5-arduinoTPI",
+         "maintainer":"Baly007",
+         "websiteURL":"",
+         "email":"jiribulusek@gmail.com",
+         "help":{
+            "online":""
+         },
+         "platforms":[
+           {
+             "name": "bitDuino5-arduinoTPI",
+             "architecture": "avr",
+             "version": "1.0.0",
+             "category": "Contributed",
+             "url": "https://github.com/Baly007/bitDuino5-arduinoTPI/blob/master/1.0.0.zip",
+             "archiveFileName": "1.0.0.zip",
+             "checksum": "SHA-256:31948d7d20cfa59c09ee2dc3a9344e605d79da22542cfed77394f52460e8f02d",
+             "size": "49152",
+             "help": {
+               "online": ""
+             },
+             "boards": [
+               {
+                 "name": "ATtiny5"
+               }
+             ],
+             "toolsDependencies": [
+               {
+                 "packager": "bitDuino10-arduinoTPI",
+                 "name": "avrboy",
+                 "version": "1.0.0"
+               }
+             ]
+           }
+         ],
+         "tools":[
+            {
+              "name": "avrboy",
+              "version": "1.0.1",
+              "systems": [
+                {
+                 "host": "x86_64-apple-darwin",
+                 "archiveFileName": "avrboy-1.0.1-osx.tar.gz",
+                 "url": "https://github.com/kimio-kosaka/avrboy/releases/download/v1.0.1/avrboy-1.0.1-osx.tar.gz",
+                 "checksum": "SHA-256:069ef2feba70cf0b60a262f784644f79c929218c7b2dca1ccba5f091ef0ba5ae",
+                 "size": "839973"
+               },
+                {
+                 "host": "i686-mingw32",
+                 "archiveFileName": "avrboy-1.0.1-win.zip",
+                 "url": "https://github.com/kimio-kosaka/avrboy/releases/download/v1.0.1/avrboy-1.0.1-win.zip",
+                 "checksum": "SHA-256: ",
+                 "size": " "
+               },
+                {
+                 "host": "i686-linux-gnu",
+                 "archiveFileName": "avrboy-1.0.1-linux64.tar.gz",
+                 "url": "https://github.com/kimio-kosaka/avrboy/releases/download/v1.0.1/avrboy-1.0.1-linux64.tar.gz",
+                 "checksum": "SHA-256: ",
+                 "size": " "
+               },
+                {
+                 "host": "x86_64-linux-gnu",
+                 "archiveFileName": "avrboy-1.0.1-linux64.tar.gz",
+                 "url": "https://github.com/kimio-kosaka/avrboy/releases/download/v1.0.1/avrboy-1.0.1-linux64.tar.gz",
+                 "checksum": "SHA-256: ",
+                 "size": " "
+               },
+                {
+                 "host": "arm-linux-gnueabihf",
+                 "archiveFileName": "avrboy-1.0.1-linuxARM.tar.gz",
+                 "url": "https://github.com/kimio-kosaka/avrboy/releases/download/v1.0.1/avrboy-1.0.1-linuxARM.tar.gz",
+                 "checksum": "SHA-256: ",
+                 "size": " "
+               }
+              ]
+            }
+          ]
+      }
+    ]
+}
